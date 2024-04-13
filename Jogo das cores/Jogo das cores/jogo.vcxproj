@@ -40,7 +40,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
@@ -74,7 +74,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>../../Common/include;../../Dependencies/glfw-3.3.8.bin.WIN32/include;../../Dependencies/GLAD/include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../../Common/include;../../Dependencies/glfw-3.3.8.bin.WIN32/include;../../Dependencies/GLAD/include;../../Dependencies/glm</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <AdditionalLibraryDirectories>../../Dependencies/glfw-3.3.8.bin.WIN32/lib-vc2019</AdditionalLibraryDirectories>
@@ -123,8 +123,12 @@
     <ClInclude Include="..\..\Common\include\Shader.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\shaders\exercicio8.fs" />
+    <None Include="..\shaders\exercicio8.vs" />
     <None Include="..\shaders\helloTriangle.fs" />
     <None Include="..\shaders\helloTriangle.vs" />
+    <None Include="..\shaders\retangulo.fs" />
+    <None Include="..\shaders\retangulo.vs" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
