@@ -123,10 +123,8 @@
     <ClInclude Include="..\..\Common\include\Shader.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\shaders\exercicio8.fs" />
-    <None Include="..\shaders\exercicio8.vs" />
-    <None Include="..\shaders\helloTriangle.fs" />
-    <None Include="..\shaders\helloTriangle.vs" />
+    <None Include="..\shaders\palete.fs" />
+    <None Include="..\shaders\palete.vs" />
     <None Include="..\shaders\retangulo.fs" />
     <None Include="..\shaders\retangulo.vs" />
   </ItemGroup>
