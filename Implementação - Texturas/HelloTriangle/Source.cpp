@@ -80,7 +80,7 @@ int main()
 
 	// Compilando e buildando o programa de shader
 	//Shader shader("../shaders/helloTriangle.vs", "../shaders/helloTriangle.fs");
-	Shader shader("../shaders/tex.vs", "../shaders/tex.fs");
+	Shader shader("../shaders/tex.vs.hlsl", "../shaders/tex.fs.hlsl");
 
 	// Gerando um buffer simples, com a geometria de um triângulo
 	//GLuint VAO = exercicio5();
